@@ -54,8 +54,9 @@
 </mjml>
 
 ```
-** Note ** 
-We can not replace the list objects in mjml templates as mjml does not support such operations. In such case we need to do it directly in handlerbars with the help of [handlerbar block helpers](https://handlebarsjs.com/guide/block-helpers.html). Apart from inbuilt helpers, there are some userful helpers in `src/generate_email`.
+**Note** 
+
+We can replace the list objects in mjml templates with the help of [handlerbar block helpers](https://handlebarsjs.com/guide/block-helpers.html) but sometimes it disturbs the layout.  In such case, we need to do it directly in handlerbars with the help of [handlerbar block helpers](https://handlebarsjs.com/guide/block-helpers.html). Apart from inbuilt helpers, there are some userful helpers in `src/generate_email`.
 
 5. Mjml gives html as an output. Get the output html from the mjml template. Write a new file in `templates/handlebars` folder and paste that html content from mjml.
 
