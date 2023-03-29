@@ -1,5 +1,8 @@
 
 # lambda emailer (nodejs)
+The goal of this repo is to generate dynamic email content from input data.
+
+***Note - For the sake of simplicity, we are not using AWS SDK or other AWS services here.  We are reading local input data and writing the generated output html in local directory. You can use other AWS services like S3 to read or write data, or get the input data through http request, SQS and so on. Also note that we are not using any mail providers.***
 
 # how it works 
 
